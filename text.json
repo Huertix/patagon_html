@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": {
+      "es": "Quienes Somos",
+      "en": "Who are we",
+      "de": ""
+    },
+    "icecreams": {
+      "es": "Nuestro Helado",
+      "en": "Our Icecreams",
+      "de": ""
+    },
+    "flavours": {
+      "es": "Sabores",
+      "en": "Flavours",
+      "de": ""
+    },
+    "events": {
+      "es": "Eventos",
+      "en": "Events",
+      "de": ""
+    },
+    "contact": {
+      "es": "Contacto",
+      "en": "Contact",
+      "de": ""
+    }
+  }
+}

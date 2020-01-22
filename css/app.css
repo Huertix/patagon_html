@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background: #fffefc;
+    font-size: 0.6em;
 }
 .navbar-links {
 
@@ -23,7 +24,7 @@ body {
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
 }
 
 .random {
@@ -52,7 +53,7 @@ body {
 .carousel-item > img {
     margin: auto;
     width: 100%;
-    height: 900px;
+    height: 500px;
 }
 
 .carousel-caption {
@@ -61,10 +62,10 @@ body {
     opacity: 80%;
     position: relative;
     /*color: black;*/
-    top: -60px;
+    top: -14px;
     left: auto;
     right: auto;
-    height: 100px;
+    height: 60px;
 }
 
 .container-fluid.contact {
@@ -87,12 +88,22 @@ body {
 }
 
 .card {
-    border: none;
+  border: none;
+}
+
+.patagon-details {
+
+    margin-top: 18px;
 }
 
 .social-media-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.flag {
+    margin: 15px;
+    width: 23px;
 }
 
 
