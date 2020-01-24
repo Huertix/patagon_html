@@ -52,7 +52,7 @@ body {
 
 .carousel-item > img {
     margin: auto;
-    width: 100%;
+    width: 60%;
     height: 500px;
 }
 
