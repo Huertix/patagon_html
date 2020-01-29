@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "home": {
+    "we": {
       "es": "Quienes Somos",
       "en": "Who are we",
       "de": ""
@@ -25,5 +25,13 @@
       "en": "Contact",
       "de": ""
     }
+  },
+  "we": {
+    "whoarewe": {
+      "es": "Quienes Somos?",
+      "en": "Who are we?",
+      "de": ""
+    }
+
   }
 }

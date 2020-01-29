@@ -6,41 +6,49 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="7815696ecbf1c96e6894b779456d330e.html">
+                <img src="img/logo_patagon.png" width="70"  alt="">
+            </a>
             <div class="container justify-content-center navbar-links">
                 <ul class="navbar-nav">
-                    <li class="nav-item active" id="home" onclick="goto(this)" >
-                        <a class="nav-link translation" data-trans="navbar" href="#">home</a>
+                    <li class="nav-item" id="we" onclick="goto(this)">
+                        <a class="nav-link translation" data-trans="navbar" href="#">we</a>
                     </li>
                     <li class="nav-item" id="icecreams" onclick="goto(this)">
-                        <a class="nav-link translation"  data-trans="navbar" href="#">icecreams</a>
+                        <a class="nav-link translation" data-trans="navbar" href="#">icecreams</a>
                     </li>
                     <li class="nav-item" id="flavours" onclick="goto(this)">
-                        <a class="nav-link translation"  data-trans="navbar" href="#">flavours</a>
+                        <a class="nav-link translation" data-trans="navbar" href="#">flavours</a>
                     </li>
                     <li class="nav-item" id="events" onclick="goto(this)">
-                        <a class="nav-link translation"  data-trans="navbar" href="#">events</a>
+                        <a class="nav-link translation" data-trans="navbar" href="#">events</a>
                     </li>
                     <li class="nav-item" id="contact" onclick="goto(this)">
-                        <a class="nav-link translation"  data-trans="navbar" href="#">contact</a>
+                        <a class="nav-link translation" data-trans="navbar" href="#">contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </div>
-<div class="container-fluid logo">
-    <div class="row">
-        <a class="navbar-brand" href="#"><img class="logo" src="img/logo_patagon.png"></a>
-    </div>
-</div>
+<!--<div class="container-fluid logo">-->
+<!--    <div class="row">-->
+<!--        <a class="navbar-brand" href="#"><img class="logo" src="img/logo_patagon.png"></a>-->
+<!--    </div>-->
+<!--</div>-->
 
 
 <script>
 
-function goto(e) {
+    function goto(e) {
 
-    $(".nav-item.active").toggleClass("active");
-    $(e).addClass('active')
+        $(".nav-item.active").toggleClass("active");
+        $(e).addClass('active');
 
-}
+        let url = e.id + ".html";
+        $("#content").load(url);
+        setTimeout( function() {
+            translate(); }, 150);
+
+    }
 </script>

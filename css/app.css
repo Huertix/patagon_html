@@ -6,15 +6,21 @@ body {
     background: #fffefc;
     font-size: 0.6em;
 }
-.navbar-links {
-
+.nav-item.active {
+    background: #40cbf9;
+    border-radius: 10px;
 }
+
+/*.navbar-brand {*/
+/*    position: fixed;*/
+/*    margin-right: 100px;*/
+/*    margin-top: 0px;*/
+/*}*/
 
 .navbar-brand {
-    position: fixed;
-    margin-right: 100px;
-    margin-top: 0px;
+    margin-left: 100px;
 }
+
 
 .nav-link {
     padding: 10px 40px !important;
@@ -111,6 +117,14 @@ body {
 .flag {
     margin: 15px;
     width: 23px;
+}
+
+.whoarewe {
+    margin-top: 100px;
+}
+
+.jumbotron {
+    background: white;
 }
 
 
