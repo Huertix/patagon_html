@@ -127,6 +127,11 @@ body {
     background: white;
 }
 
+.icecreams-img {
+    width: 250px;
+    height: 250px;
+}
+
 
 @media (min-width: 576px) { }
 
