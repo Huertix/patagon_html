@@ -132,6 +132,29 @@ body {
     height: 250px;
 }
 
+.flavours {
+    margin-top: 120px;
+}
+
+.flavours-description {
+    font-size: 0.9em;
+}
+
+.flavours-row {
+    margin-top: 30px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.card-body-flavour {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.page-contact {
+    margin-top: 120px;
+}
+
 
 @media (min-width: 576px) { }
 
