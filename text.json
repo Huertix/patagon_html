@@ -39,5 +39,19 @@
       "en": "Our Icecreams",
       "de": ""
     }
+  },
+  "flavours": {
+    "flavours": {
+      "es": "Sabores",
+      "en": "Flavours",
+      "de": ""
+    }
+  },
+  "events": {
+    "events": {
+      "es": "Eventos",
+      "en": "Events",
+      "de": ""
+    }
   }
 }
