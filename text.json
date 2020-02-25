@@ -1,12 +1,12 @@
 {
   "navbar": {
     "we": {
-      "es": "Quienes Somos",
+      "es": "Quienes somos",
       "en": "Who are we",
       "de": ""
     },
     "icecreams": {
-      "es": "Nuestro Helado",
+      "es": "Nuestros helado",
       "en": "Our Icecreams",
       "de": ""
     },
@@ -28,14 +28,14 @@
   },
   "we": {
     "whoarewe": {
-      "es": "Quienes Somos?",
+      "es": "Quienes somos?",
       "en": "Who are we?",
       "de": ""
     }
   },
   "icecreams": {
     "icecreams": {
-      "es": "Nuestros Helados",
+      "es": "Nuestros helados",
       "en": "Our Icecreams",
       "de": ""
     }

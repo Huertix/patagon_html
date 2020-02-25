@@ -1,14 +1,27 @@
 body {
- background: #fffefc;
+    content: "";
+    background: url('../img/argentina.png') no-repeat center center fixed;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .navbar {
-    background: #fffefc;
     font-size: 0.6em;
 }
+
 .nav-item.active {
-    background: #40cbf9;
-    border-radius: 10px;
+    background: #c8d874;
+    border-radius: 5px;
 }
 
 /*.navbar-brand {*/
@@ -23,10 +36,21 @@ body {
 
 
 .nav-link {
-    padding: 10px 40px !important;
-    font-size: 1.5em;
+    padding: 10px 20px !important;
+    font-size: 2em;
     position: sticky;
     top: 0px;
+    color: rgb(56, 56, 56) !important;
+    font-weight: bold;
+
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.languages {
+    padding-left: 50px;
 }
 
 .logo {
@@ -54,6 +78,21 @@ body {
 
 .container-fluid.four-elements {
     width: 90%;
+    margin-top: 80px;
+}
+
+.bg-transparent {
+    background: rgba(255,255,255, 0.1);
+}
+
+
+.container-fluid.four-elements > .row > .col > .card > .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-fluid.four-elements > .row > .col > .card > .card-body > .card-text {
+    font-size: 1.2em !important;
 }
 
 .carousel-inner > .item > img {
@@ -63,20 +102,16 @@ body {
 .carousel-item > img {
     margin: auto;
     width: 100%;
-    height: 500px;
 }
 
-.container-fluid.four-elements {
-    margin-top: 100px;
-}
-.container-fluid.four-elements>.row>.col>.card {
+.container-fluid.four-elements > .row > .col > .card {
     width: 12rem;
-            margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 
-.container-fluid.four-elements>.row>.col>.card>.card-body>.card-text {
+.container-fluid.four-elements > .row > .col > .card > .card-body > .card-text {
     font-size: 0.8em;
 }
 
@@ -101,17 +136,18 @@ body {
 }
 
 .card {
-  border: none;
+    border: none;
 }
 
 .patagon-details {
-
     margin-top: 18px;
+
 }
 
 .social-media-icon {
     width: 30px;
     height: 30px;
+    margin-bottom: 20px;
 }
 
 .flag {
@@ -125,6 +161,10 @@ body {
 
 .jumbotron {
     background: white;
+}
+
+.icecreams {
+    margin-top: 100px;
 }
 
 .icecreams-img {
@@ -146,6 +186,11 @@ body {
     font-weight: bold;
 }
 
+.card-header-flavour {
+   padding: 0px;
+
+}
+
 .card-body-flavour {
     padding-right: 0px;
     padding-left: 0px;
@@ -155,11 +200,29 @@ body {
     margin-top: 120px;
 }
 
+.top-spacer {
+    margin-top: 160px;
+}
 
-@media (min-width: 576px) { }
+.padding-side-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-@media (min-width: 768px) { }
+.vl {
+  border-left: 6px solid green;
+    height: 200px;
+}
 
-@media (min-width: 992px) { }
 
-@media (min-width: 1200px) { }
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

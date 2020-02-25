@@ -1,33 +1,31 @@
 <div class="container-fluid carousel">
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselHome" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselHome" data-slide-to="1"></li>
+            <li data-target="#carouselHome" data-slide-to="2"></li>
+            <li data-target="#carouselHome" data-slide-to="3"></li>
+        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/carousel/1.png" class="d-block" >
+                <img src="img/carousel/1_low.jpg" class="d-block" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/2.png" class="d-block">
+                <img src="img/carousel/2_low.jpg" class="d-block" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/3.png" class="d-block" >
+                <img src="img/carousel/3_low.jpg" class="d-block" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/4.png" class="d-block" >
+                <img src="img/carousel/4_low.jpg" class="d-block" alt="Fourth slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </div>
 <div class="container-fluid four-elements">
     <div class="row">
         <div class="col">
-            <div class="card">
+            <div class="card bg-transparent">
                 <img src="img/four_elements/1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Patagon Helados es una heladería
@@ -37,7 +35,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card bg-transparent">
                 <img src="img/four_elements/2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Para entender el desarrollo del
@@ -47,7 +45,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card bg-transparent">
                 <img src="img/four_elements/3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Patagon Helados es una heladería
@@ -57,7 +55,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card bg-transparent">
                 <img src="img/four_elements/4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Patagon Helados es una heladería
@@ -72,7 +70,7 @@
 <div class="container-fluid contact">
     <div class="row">
         <div class="col-lg-7 col-md-12">
-            <div class="card card-cascade narrower">
+            <div class="card card-cascade narrower bg-transparent">
                 <div class="card-body card-body-cascade text-center">
                     <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 200px">
                         <iframe src="https://maps.google.com/maps?q=Patagon+Helados&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -82,38 +80,30 @@
             </div>
         </div>
         <div class="col-lg-5 patagon-details">
-            <h4>Patagon Helados</h4>
-            <h6>Romanplatz 5, 80639 München</h6>
+            <div class="card card-cascade narrower">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h4>Patagon Helados</h4>
+                        <h6>Romanplatz 5, 80639 München</h6>
+                    </li>
+                </ul>
+            </div>
             <br>
             <div class="card card-cascade narrower">
                 <div class="card-header">
-                    <h4>Horarios de apertura:</h4>
+                    <h5>Horarios de apertura:</h5>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
 
-                        <h5>De Mayo a Octubre:</h5>
-                        <h6>Lunes a Domingo de 11:00 – 21:00 hs.</h6>
+                        <h6>De Mayo a Octubre:</h6>
+                        <h7>Lunes a Domingo de 11:00 – 21:00 hs.</h7>
                     </li>
                     <li class="list-group-item">
-                        <h5>Marzo, Abril, Noviembre y Diciembre:</h5>
-                        <h6>Martes a Domingo de 11:00-17:00 hs.</h6>
+                        <h6>Marzo, Abril, Noviembre y Diciembre:</h6>
+                        <h7>Martes a Domingo de 11:00-17:00 hs.</h7>
                     </li>
                 </ul>
-                <!--                <div class="card-body card-body-cascade">-->
-                <!--                    <h4>Patagon Helados</h4>-->
-                <!--                    <h5>Romanplatz 5, 80639  München</h5>-->
-                <!--                    <br>-->
-                <!--                    <br>-->
-                <!--                    <h4>Horarios de apertura:</h4>-->
-                <!--                    <h5>De Mayo a Octubre:</h5>-->
-                <!--                    <h6>Lunes a Domingo de 11:00 – 21:00 hs.</h6>-->
-                <!--                    <br>-->
-                <!--                    <br>-->
-                <!--                    <h5>Marzo, Abril, Noviembre y Diciembre:</h5>-->
-                <!--                    <h6>Martes a Domingo de 11:00-17:00 hs.</h6>-->
-
-                <!--                </div>-->
             </div>
         </div>
     </div>
