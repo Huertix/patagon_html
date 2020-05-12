@@ -2,28 +2,80 @@
   "navbar": {
     "we": {
       "es": "Quienes somos",
-      "en": "Who are we",
-      "de": ""
+      "en": "About us",
+      "de": "Über uns"
     },
     "icecreams": {
       "es": "Nuestros helado",
       "en": "Our Icecreams",
-      "de": ""
+      "de": "Unser Eis"
     },
     "flavours": {
       "es": "Sabores",
       "en": "Flavours",
-      "de": ""
+      "de": "Eissorten"
     },
     "events": {
       "es": "Eventos",
       "en": "Events",
-      "de": ""
+      "de": "Events"
     },
     "contact": {
       "es": "Contacto",
       "en": "Contact",
-      "de": ""
+      "de": "Kontakt"
+    }
+  },
+  "home": {
+    "pic1": {
+      "es": "Patagon Helados es una heladería de orígenes...",
+      "en": "Patagon Helados is an argentinian Ice cream shop...",
+      "de": "Patagon Helados ist eine argentinische Eisdiele..."
+    },
+    "pic2": {
+      "es": "Para entender el desarrollo del helado artesanal argentino...",
+      "en": "In order to understand the development of argentinian...",
+      "de": "Um die Entwicklungs des argentinischen Speiseeis zu..."
+    },
+    "pic3": {
+      "es": "Cada día les presentamos 24 sabores diferentes...",
+      "en": "We offer 24 different fresh new flavors...",
+      "de": "Jeden Tag bieten wir euch 24 verschieden Eissorten..."
+    },
+    "pic4": {
+      "es": "¿Alguna vez pensaste lo bueno que sería...",
+      "en": "Have you ever thought about, how cool it would be...",
+      "de": "Hast du darüber nachgedacht, wie cool es wäre..."
+    },
+    "pic_link": {
+      "es": "leer más",
+      "en": "read more",
+      "de": "weiter lesen"
+    },
+    "schedule_title": {
+      "es": "Horarios de apertura:",
+      "en": "Opening hours:",
+      "de": "Öffnungszeiten:"
+    },
+    "schedule_months_summer": {
+      "es": "De Mayo a Octubre:",
+      "en": "May - October:",
+      "de": "Mai bis Oktober:"
+    },
+    "schedule_time_summer": {
+      "es": "Lunes a Domingo de 11:00 – 20:00 hs.",
+      "en": "Monday - Sunday from 11 a.m. – 8 p.m.",
+      "de": "Montag - Sonntag von 11:00 – 20:00 Uhr."
+    },
+    "schedule_months_winter": {
+      "es": "Marzo, Abril, Noviembre y Diciembre:",
+      "en": "March, April, November and December:",
+      "de": "März, April, November und Dezember:"
+    },
+    "schedule_time_winter": {
+      "es": "Martes a Domingo de 11:00-18:00 hs.",
+      "en": "Tuesday - Sunday from 11 a.m. – 6 p.m.",
+      "de": "Dienstag - Sonntag von 11:00-18:00 Uhr."
     }
   },
   "we": {
