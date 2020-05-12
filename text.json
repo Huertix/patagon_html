@@ -80,9 +80,74 @@
   },
   "we": {
     "whoarewe": {
-      "es": "Quienes somos?",
-      "en": "Who are we?",
-      "de": ""
+      "es": "Quienes somos",
+      "en": "About us",
+      "de": "Über uns"
+    },
+    "p1": {
+      "es": "Patagon Helados es una heladería de orígenes argentinos, ubicada en Munich, Alemania. Si bien la heladería abrió sus puertas el 08/05/2019, la concepción de la idea se remonta al año 2008. Uno de sus socios fundadores, <b>Adrián Pisani</b> llega ese año a Alemania a cumplir su sueño de vivir en este país. Adrián, fanático y apasionado del helado, encuentra dificultades de hallar un helado de calidad y de elaboración artesanal, tal como estaba acostumbrado en su país. Tampoco logra localizar los sabores tradicionales argentinos, que caracterizan nuestra cultura. Ahí es cuando nace la idea de traer una parte de la cultura y gastronomía argentina a Alemania.",
+      "en": "Patagon Helados is an Argentinian Ice Cream shop located in Munich, Germany. It was opened on 08.05.2019, though its original idea comes from the year 2008. It was then when <b>Adrián Pisani</b>, one of the founders, first came to Germany to fulfill his dream of living in this beautiful country. He is a truly Ice Cream lover and has a lot of passion for it. Despite having settled pretty quickly, he certainly missed Ice Cream the way he knew it from Argentina. He could not find any Ice Cream shop that offered Ice Cream in the quality he was used to back home, not to speak of the typical Argentinian flavors, which were nowhere to be found. That is when the idea of bringing a small part of the Argentinian gastronomy and culture to Germany hit him for the first time.",
+      "de": "Patagon Helados ist eine argentinische Eisdiele in München, Deutschland. Obwohl die Eisdiele am 08.05.2019 eröffnet wurde, stammt die Idee ursprünglich eigentlich vom Jahr 2008. In diesem Jahr ist <b>Adrián Pisani</b>, einer der Gründer, zum ersten Mal nach Deutschland gekommen um seinen Traum, in diesem Land zu wohnen, zu verwirklichen. Bei Adrian handelt es sich um einen großen Eis-Fan, der sehr viel Leidenschaft für diesen Produkt hat.  Obwohl er sich schnell eingelebt hat, hat ihm von Anfang an etwas sehr gefehlt. Er hatte Schwierigkeiten Speiseeis, in der Qualität wie er es aus Argentinien kannte, in München zu finden. Des Weiteren fehlten ihm die argentinischen Eissorten, die typisch für diese Kultur sind. Aus diesem Grund fängt er mit dem Gedanken an zu spielen, einen Teil der argentinischen Kultur und Gastronomie nach Deutschland zu bringen."
+    },
+    "p2": {
+      "es": "Con la llegada de su amigo de toda la vida, <b>Sebastián Scovenna</b> y su esposa <b>Fernanda Scovenna</b>, los tres comienzan a soñar sobre la posibilidad de abrir su propia heladería en Munich.",
+      "en": "So it was that when <b>Sebastián Scovenna</b>, a good friend from Argentina, and his wife, <b>Fernanda Scovenna</b>, moved to Munich, that they started to dream about opening an Argentinian Ice Cream shop in this city.",
+      "de": "Als <b>Sebastián Scovenna</b>, ein guter Freund aus Argentinien, und seine Frau, <b>Fernanda Scovenna</b>, nach München ziehen, beginnen die drei zu träumen ihre eigene Eisdiele in München zu öffnen."
+    },
+    "p3": {
+      "es": "Como primer paso de un largo camino, los tres se ponen rápidamente de acuerdo en cuales serían las bases para la creación del producto. Así surgen los cuatro pilares desde donde construyeron su idea.",
+      "en": "The first thing they agreed on was the foundations of their product, which led to the establishment of the four pillars on which they build their concept:",
+      "de": "Als erstes einigen sie sich auf die Grundlagen ihres Produktes. Somit entstehen die vier Säulen, auf die sie ihr Konzept aufbauen sollten"
+    },
+    "p4": {
+      "es": "Una vez definidos dichos pilares, toma la decisión de capacitarse con los mejores maestros heladeros, tanto en la cuna del “Gelato”, como lo es Italia, como en Argentina, para conseguir la combinación perfecta de tradición y sabores que los lleve a producir el helado que sueñan.",
+      "en": "The next step was to get proper training with the best Ice Cream teachers and schools both in Argentina and Italy, the country where it all began. This would enable a perfect blend between traditional and new flavors, which would lead to the creation of the Ice Cream they had always dreamed of.",
+      "de": "Nach der Festlegung der Säulen wird entschieden, Schulungen und Kurse mit den besten Eismeister sowohl in Italien, wo das Speiseeis entstanden ist, als auch in Argentinien zu besuchen. Hiermit sollte eine perfekte Mischung aus Tradition und neuen Eissorten erzielt werden, welche die Herstellung ihres TraumSpeiseeises ermöglichen sollte."
+    },
+    "p5": {
+      "es": "Finalmente, luego de años de planificación, capacitación e investigación Patagon Helados abre sus puertas al público.",
+      "en": "After several years of intense planning and a lot of trial and error, finally Patagon Helados was created.",
+      "de": "Nach mehreren Jahren, in denen intensiv geplant, recherchiert und probiert wurde, entsteht endlich Patagon Helados."
+    },
+    "p6": {
+      "es": "El mayor anhelo es que sus clientes logren apreciar la pasión y la dedicación con la cual preparan cada helado y que con cada visita a la heladería sientan que están por un rato en su amada Argentina.",
+      "en": "We aspire to transmit our passion and love for the product to our clients, so that they value and enjoy our Ice Cream. Finally, it would be our biggest accomplishment if by entering our shop they feel, at least for a moment, in our beloved Argentina.",
+      "de": "Es wird angestrebt, dass die Leidenschaft und der Einsatz, mit denen jedes Eis hergestellt wird, von den Kunden geschätzt wird. Es wäre auch schön, wenn sie sich auch bei jedem Besuch zumindest für diese kurze Zeit in ihrem geliebten Argentinien fühlen."
+    },
+    "p7": {
+      "es": "Nuestros helados surgen de la fusión entre décadas de heladería artesanal italiana y los sabores y materias primas tradicionales argentinas.",
+      "en": "Our Ice Cream originated as a fusion between old Italian tradition and Argentinian flavors and raw materials.",
+      "de": "Unser Eis entsteht aus der Fusion von jahrzehntelanger italienischer Eistradition und traditionellen argentinischen Eissorten und Rohstoffe."
+    },
+    "p8": {
+      "es": "Basados en nuestra premisa fundamental de hacer el helado artesanal más natural posible y elaborado con materias primas de alta calidad y cuidadosamente seleccionadas, nuestra visión consiste en mostrarle al mundo la calidad del helado artesanal argentino y acercar esta rica tradición heladera argentina a Alemania.",
+      "en": "Our Vision is to show the world the quality of Argentinian handmade Ice Cream and its vast and rich Ice Cream tradition. This should come as a consequence of following our highest purpose, which is to produce the most natural Ice Cream possible, using the highest-quality raw materials available in the process.",
+      "de": "Unsere Vision ist, der Welt die Qualität des argentinischen Speiseeises vorzustellen und die reiche argentinische Eistradition näher zu bringen. Dieses soll basierend auf unserem wichtigsten Vorsatz, das natürlichste Speiseeis mit den qualitativ hochwertigsten Rohstoffen herzustellen, erfolgen."
+    },
+    "pilar_title": {
+      "es": "Los cuatro pilares",
+      "en": "The four pillars",
+      "de": "Die vier Säulen"
+    },
+    "pilar_1": {
+      "es": "Helado artesanal gourmet",
+      "en": "Handmade Gourmet Ice Cream",
+      "de": "Handwerklich hergestelltes Gourmet Speiseeis"
+    },
+    "pilar_2": {
+      "es": "Recetas y sabores característicos de Argentina",
+      "en": "Argentinian recipes and flavors",
+      "de": "Argentinische Rezepte und Eissorten"
+    },
+    "pilar_3": {
+      "es": "Libre de colorantes, conservantes, saborizantes y aditivos",
+      "en": "Without artificial colorings, preservatives or food additives",
+      "de": "Ohne künstliche Farb-, Konservierungs-, oder Zusatzstoffe"
+    },
+    "pilar_4": {
+      "es": "Materias primas de alta calidad, estrictamente seleccionadas",
+      "en": "High-quality, strictly selected raw materials",
+      "de": "Hochwertige und streng selektierte Rohstoffe"
     }
   },
   "icecreams": {

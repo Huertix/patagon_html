@@ -8,7 +8,21 @@ function translate() {
             let key = $(this).attr('data-trans');
             let placeholder = $(this).text();
             if (placeholder in data[key])
-                $(this).text(data[key][placeholder][lang])
+                $(this).html(data[key][placeholder][lang])
         });
     });
+}
+
+
+function goto(e) {
+
+    $(".nav-item.active").toggleClass("active");
+    $('#' + e.id).addClass('active');
+
+    let url = e.id + ".html";
+    $("#content").load(url);
+    setTimeout(function () {
+        translate();
+    }, 50);
+
 }

@@ -48,16 +48,4 @@
 
 <script>
 
-    function goto(e) {
-
-        $(".nav-item.active").toggleClass("active");
-        $(e).addClass('active');
-
-        let url = e.id + ".html";
-        $("#content").load(url);
-        setTimeout(function () {
-            translate();
-        }, 150);
-
-    }
 </script>
