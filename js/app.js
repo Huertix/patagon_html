@@ -1,5 +1,4 @@
 function translate() {
-
     $.getJSON("text.json", function (data) {
         let searchParams = new URLSearchParams(window.location.search);
         let lang = searchParams.has('lang') ? searchParams.get('lang') : 'es';
@@ -23,6 +22,6 @@ function goto(e) {
     $("#content").load(url);
     setTimeout(function () {
         translate();
-    }, 50);
+    }, 150);
 
 }
