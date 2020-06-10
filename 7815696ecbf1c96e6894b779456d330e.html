@@ -40,16 +40,18 @@
     $(document).ready(function () {
         translate();
 
-        // $(window).scroll(function () {
-        //     var scroll = $(window).scrollTop();
-        //     if (scroll < 50) {
-        //         $('.fixed-top').addClass('navbar-transparent-off').removeClass('navbar-transparent-on');
-        //         $('.navbar-brand-logo').addClass('navbar-brand-logo-small').removeClass('navbar-brand-logo-big');
-        //     } else {
-        //         $('.fixed-top').addClass('navbar-transparent-on').removeClass('navbar-transparent-off');
-        //         $('.navbar-brand-logo').addClass('navbar-brand-logo-big').removeClass('navbar-brand-logo-small');
-        //     }
-        // });
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll < 50) {
+                $('#navbar').show();
+                // $('.fixed-top').addClass('navbar-transparent-off').removeClass('navbar-transparent-on');
+                // $('.navbar-brand-logo').addClass('navbar-brand-logo-small').removeClass('navbar-brand-logo-big');
+            } else {
+                $('#navbar').hide();
+                // $('.fixed-top').addClass('navbar-transparent-on').removeClass('navbar-transparent-off');
+                // $('.navbar-brand-logo').addClass('navbar-brand-logo-big').removeClass('navbar-brand-logo-small');
+            }
+        });
     });
 </script>
 

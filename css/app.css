@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "GuthenBloots";
+    src: url("../fonts/guthen_bloots.ttf");
+}
+
+
+@font-face {
+    font-family: "Chapaza";
+    src: url("../fonts/Chapaza.ttf");
+    src: url("../fonts/Chapaza_Italic.ttf");
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: url("../fonts/Recoleta-Regular.otf") format("opentype");;
+}
+
+
 body {
     content: "";
     background: url('../img/argentina.png') no-repeat center center fixed;
@@ -16,7 +34,8 @@ body {
 }
 
 .navbar {
-    font-size: 0.6em;
+    font-family: 'GuthenBloots', Arial, sans-serif;
+    font-size: 1em;
 }
 
 .navbar-brand {
@@ -32,7 +51,7 @@ body {
 /*}*/
 
 .nav-item.active {
-    background: #c8d874;
+    background: #4fbfed8c;
     border-radius: 5px;
 }
 
@@ -47,7 +66,7 @@ body {
 }
 
 .navbar-brand-logo-big {
-    width: 45px
+    width: 100px
 }
 
 /*.navbar-brand-logo-small {*/
@@ -159,6 +178,13 @@ body {
     border: none;
 }
 
+.card-body.fourpics {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .patagon-details {
     margin-top: 18px;
 
@@ -202,14 +228,20 @@ body {
     font-weight: bold;
 }
 
+.list-group-item.active {
+    min-height: 66px;
+}
+
 .card-header-flavour {
     padding: 0px;
+    font-size: 1.2em
 
 }
 
 .card-body-flavour {
     padding-right: 0px;
     padding-left: 0px;
+    font-size: 1.2em
 }
 
 .page-contact {
@@ -251,7 +283,7 @@ body {
     }
 
     .navbar-collapse {
-        background: #c6f3e2;
+        background: #4ebeed2b;
         border-radius: 5px;
         padding: 5px;
     }
