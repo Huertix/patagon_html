@@ -47,11 +47,11 @@ body {
 }
 
 .navbar-brand-logo-big {
-   width: 90px
+    width: 90px
 }
 
 .navbar-brand-logo-small {
-   width: 40px
+    width: 40px
 }
 
 
@@ -102,7 +102,7 @@ body {
 }
 
 .bg-transparent {
-    background: rgba(255,255,255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -203,7 +203,7 @@ body {
 }
 
 .card-header-flavour {
-   padding: 0px;
+    padding: 0px;
 
 }
 
@@ -226,8 +226,14 @@ body {
 }
 
 .vl {
-  border-left: 6px solid green;
+    border-left: 6px solid green;
     height: 200px;
+}
+
+.impressum-modal > p {
+    margin: 2px 20px 2px 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -239,11 +245,11 @@ body {
 
 @media (min-width: 992px) {
     .navbar-brand-logo-big {
-       width: 30px
+        width: 30px
     }
 
     .navbar-brand-logo-small {
-       width: 30px
+        width: 30px
     }
 
     .navbar-transparent-off {
