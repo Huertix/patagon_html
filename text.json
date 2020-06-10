@@ -233,7 +233,59 @@
     "events": {
       "es": "Eventos",
       "en": "Events",
-      "de": ""
+      "de": "Events"
+    },
+    "p1": {
+      "es": "¿Alguna vez pensaste lo bueno que sería tener nuestro helado en ese evento que tanto te importa? No importa si es una reunión familiar, una fiesta de verano, un casamiento, un cumpleaños o un evento empresarial. En Patagon Helados te ofrecemos dos formas de llevar el helado a ese evento tan importante. Consultanos personalmente o por correo electrónico y nos pondremos en contacto contigo.",
+      "en": "Have you ever thought about how cool it would be to offer our Ice Cream at that event you so much care about? We offer you two ways to enjoy our ice cream, no matter if it is a family reunion, a summer party, a wedding, a birthday or your company`s party! Please talk to us or contact us per E-Mail, so that we can work with you on a plan and find a solution.",
+      "de": "Hast du bereits darüber nachgedacht wie cool es wäre unser Eis bei diesem Event, dass dir so wichtig ist, dabei zu haben? Egal ob Familientreffen, Sommerfest, Hochzeit, Geburtstag oder Unternehmensfeier, wir bieten dir zwei Möglichkeiten an um unser Eis zu genießen. Bitte sprich uns an oder kontaktiere uns per Email, so dass wir gemeinsam eine Lösung finden können."
+    },
+    "frosty_header": {
+      "es": "Nuestra Vitrina móvil “Frosty”",
+      "en": "Our mobile Ice Cream cabinet “Frosty”",
+      "de": "Unsere mobile Eisvitrine “Frosty”"
+    },
+    "frosty_body": {
+      "es": "Muy fácil de utilizar, solo necesitás conexión a la red eléctrica y una mesa donde apoyarla. El alquiler de la misma incluye 3 sabores de helado a elección, vasitos y/o cucuruchos, servilletas, cucharitas y porcionadores para servir el helado en bochas.<br><br>Adicionalmente podrás contratar servicio de atención y el transporte de la misma, sujeto a disponibilidad de personal.",
+      "en": "Our mobile Ice Cream cabinet is very easy to use, the only thing you need is power supply and a table where you can exhibit it. It can be rented at our shop, and this would also include the possibility of choosing 3 different Ice Cream flavors as well as cups, cones, paper napkins, spoons and ice cream scoops. Everything you need for a perfect event.<br><br>Additionally, and subject to availability, you may also hire the transport of the cabinet and staff to serve the Ice Cream",
+      "de": "Unsere mobile Eisvitrine ist sehr einfach zu bedienen, du brauchst nur Stromanschluss und ein Tisch wo du sie hinstellen kannst. Du kannst sie ganz bequem bei uns mieten, und wir würden dazu noch 3 verschiedene Eissorten zur Auswahl sowie auch Becher, Waffeln, Servietten, Löffel und Eisportionierer zur Verfügung stellen.<br><br>Zusätzlich dazu kannst du eine Bedienung sowie den Transport der Eisvitrine bei uns bestellen, insofern die personelle Situation bei uns es in diesem Moment zulässt."
+    },
+    "icebox_header": {
+      "es": "Eisbox para llevar",
+      "en": "Take away Ice Box",
+      "de": "Eisbox zum Mitnehmen"
+    },
+    "icebox_body": {
+      "es": "Podrás elegir hasta 3 gustos de helado por box. Ideal para festejar una reunión familiar o un cumpleaños. Necesitarás un freezer que mantenga temperaturas de -15 grados, donde puedas guardar las bandejas hasta su consumo.<br><br>La box se retira y devuelve en nuestra heladería.<br><br>Si tenés un restaurante o una empresa de catering y te gustaría tener nuestro helado, no dudes en contactarnos. Nos encantaría poder ayudarte y que nuestro helado llegue a otros lugares.",
+      "en": "You can choose up to 3 different Ice Cream flavors per Box. The box is ideal for a family gathering or a not very crowded birthday party. You only need a freezer (set at approximately -15°C) in order to store the Ice trays until you need them.<br><br>The box can be picked up and must be returned to our shop.<br><br>For Restaurant owners and catering firms: please get in touch with us in case you would be interested in selling our ice cream. We would love to help you and find a way to do so!",
+      "de": "Du kannst bis zu 3 Eissorten per Eisbox auswählen. Die Box ist ideal für ein Familientreffen oder ein Geburtstag im kleinen Kreis. Du brauchst nur eine Tiefkühltruhe (eingestellt auf ungefähr -15 °C) um die Eisschalen bis zum Verzehr lagern zu können.<br><br>Die Box wird bei uns abgeholt und zurückgebracht.<br><br>Für Restaurant-Besitzer und Gastro-Unternehmer: bitte setzen Sie sich mit uns Verbindung, falls Sie gerne unser Eis bei Ihnen anbieten möchten. Wir würden Sie gerne dabei unterstützen!"
+    },
+    "old_events_header": {
+      "es": "Eventos Anteriores",
+      "en": "Past Events:",
+      "de": "Vergangene Events:"
+    },
+    "event_1": {
+      "es": "Apertura de la exposición: “Tutto. Perspektiven italienischer Kunst” en la Sammlung Goetz en München.",
+      "en": "Opening of the exhibition: “Tutto. Perspektiven italienischer Kunst” of the Sammlung Goetz in Munich.",
+      "de": "Eröffnung der Ausstellung: “Tutto. Perspektiven italienischer Kunst” der Sammlung Goetz in München."
+    }
+  },
+  "about_us": {
+    "contact_us_header": {
+      "es": "Contactanos",
+      "en": "Contact Us",
+      "de": "Kontak"
+    },
+    "contact_us_body": {
+      "es": "Nos encantaría que te contactes si tenés dudas, comentarios, críticas constructivas, deseos o si simplemente te querés sumar a nuestro equipo de trabajo. En ese caso envianos por favor tu CV informándonos tu disponibilidad horaria y el sueldo pretendido.",
+      "en": "Please contact us in case you have any questions or comments. You are also welcome to tell us your wishes or express your constructive criticism.",
+      "de": "Bitte schreibe uns, falls du Fragen oder Kommentare hast. Gerne auch wenn du Wünsche oder konstruktive Kritik äußern möchtest."
+    },
+    "contact_us_email": {
+      "es": "Podés escribirnos a <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>",
+      "en": "In case you would like to join us or be part of our team, please send us your complete CV as well as your salary and working hours expectations to following E-\nMail address: <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>",
+      "de": "Wenn du Teil unseres Teams werden möchtest, kannst du uns gerne dein Lebenslauf mit deinen Vorstellungen zu Gehalt und Arbeitszeiten an folgende\nEmailadresse schicken: <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>"
     }
   }
 }

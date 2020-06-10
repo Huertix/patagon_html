@@ -19,6 +19,10 @@ body {
     font-size: 0.6em;
 }
 
+.navbar-brand {
+    cursor: pointer;
+}
+
 .navbar-transparent-off {
     background: rgba(255, 255, 255, 0.9);
 }
