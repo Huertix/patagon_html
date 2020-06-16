@@ -1,7 +1,7 @@
 function translate() {
     $.getJSON("text.json", function (data) {
         let searchParams = new URLSearchParams(window.location.search);
-        let lang = searchParams.has('lang') ? searchParams.get('lang') : 'es';
+        let lang = searchParams.has('lang') ? searchParams.get('lang') : 'de';
 
         $(".translation").each(function () {
             let key = $(this).attr('data-trans');

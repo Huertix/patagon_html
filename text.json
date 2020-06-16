@@ -151,6 +151,11 @@
     }
   },
   "icecreams": {
+    "header": {
+      "es": "Nuestros helado",
+      "en": "Our Icecreams",
+      "de": "Unser Eis"
+    },
     "section1_header": {
       "es": "Helados Artesanos Gourmet",
       "en": "Handmade Gourmet Ice Cream",
