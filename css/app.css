@@ -17,6 +17,7 @@
 
 
 body {
+    font-family: 'Chapaza', Helvetica, sans-serif;;
     content: "";
     background: url('../img/argentina.png') no-repeat center center fixed;
     opacity: 1;
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar-transparent-off {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255);
 }
 
 /*.navbar-transparent-on {*/
@@ -237,6 +238,12 @@ body {
     min-height: 66px;
 }
 
+
+.text_align_left_145 {
+    text-align: left;
+    height: 145px;
+}
+
 .card-header-flavour {
     padding: 0px;
     font-size: 1.2em
@@ -247,6 +254,11 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     font-size: 1.2em
+}
+
+.flavour_title_size {
+    font-size: 1.3em;
+    height: 75px;
 }
 
 .card {
@@ -270,6 +282,10 @@ body {
 .vl {
     border-left: 6px solid green;
     height: 200px;
+}
+
+.event-link {
+    color: black;
 }
 
 .impressum-modal > p {
