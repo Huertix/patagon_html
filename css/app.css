@@ -95,6 +95,7 @@ body {
     top: 0px;
     color: rgb(56, 56, 56) !important;
     font-weight: bold;
+    white-space: nowrap;
 
 }
 
@@ -315,7 +316,7 @@ body {
 
 
 img.columns4 {
-    width: 100px;
+    width: 100px
 }
 
 @media screen and (max-width: 900px) {
@@ -324,16 +325,22 @@ img.columns4 {
         height: 82px;
     }
 
+    .navbar-toggler-left {
+        display: block;
+
+    }
+
+    .navbar-toggler-left {
+        display: none;
+
+    }
+
     .container-fluid.carousel {
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
         padding-right: 0px;
         top: 65px;
-    }
-
-    .navbar-brand {
-        margin-left: 10px;
     }
 
     .navbar-collapse {
@@ -353,4 +360,16 @@ img.columns4 {
     .nav-item.languages {
         padding-left: 0px;
     }
+}
+
+@media screen and (max-width: 540px) {
+    img.columns4 {
+        width: 65px;
+    }
+
+    .columns4-text {
+        padding: 12px 2px !important;
+
+    }
+
 }
