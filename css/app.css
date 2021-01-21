@@ -60,6 +60,11 @@ body {
     border-radius: 5px;
 }
 
+.nav-item:hover {
+    background: #4fbfed8c;
+    border-radius: 5px;
+}
+
 /*.navbar-brand {*/
 /*    position: fixed;*/
 /*    margin-right: 100px;*/
@@ -77,6 +82,10 @@ body {
 /*.navbar-brand-logo-small {*/
 /*    width: 40px*/
 /*}*/
+
+.navbar-collapse {
+    width: 100%;
+}
 
 
 .nav-link {
@@ -198,7 +207,7 @@ body {
 }
 
 .flag {
-    margin: 15px;
+    margin: 5px;
     width: 23px;
 }
 
@@ -292,6 +301,21 @@ body {
     margin: 2px 20px 2px 20px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.press-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.press-col {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+img.columns4 {
+    width: 100px;
 }
 
 @media screen and (max-width: 900px) {

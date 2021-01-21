@@ -129,6 +129,31 @@
       "en": "Our Vision is to show the world the quality of Argentinian handmade Ice Cream and its vast and rich Ice Cream tradition. This should come as a consequence of following our highest purpose, which is to produce the most natural Ice Cream possible, using the highest-quality raw materials available in the process.",
       "de": "Unsere Vision ist, der Welt die Qualität des argentinischen Speiseeises vorzustellen und die reiche argentinische Eistradition näher zu bringen. Dieses soll basierend auf unserem wichtigsten Vorsatz, das natürlichste Speiseeis mit den qualitativ hochwertigsten Rohstoffen herzustellen, erfolgen."
     },
+    "columns_title": {
+      "es": "Los Cuatro Pilares",
+      "en": "The Four Pillars",
+      "de": "Die Vier Säulen"
+    },
+    "column1": {
+      "es": "Materias primas de calidad",
+      "en": "High-quality, strictly selected raw materials",
+      "de": "Hochwertige und streng selektierte Rohstoffe"
+    },
+    "column2": {
+      "es": "Helado artesanal gourmet",
+      "en": "Handmade gourmet ice cream",
+      "de": "Handwerklich hergestelltes Gourmet Speiseeis"
+    },
+    "column3": {
+      "es": "Recetas sabores argentinos",
+      "en": "Argentinian recipes and flavors",
+      "de": "Argentinische Rezepte und Eissorten"
+    },
+    "column4": {
+      "es": "Libre de colorantes, conservantes, saborizantes y aditivos",
+      "en": "Without artificial colorings, preservatives or food additives",
+      "de": "Ohne künstliche Farb-, Konservierungs-, oder Zusatzstoffe"
+    },
     "pilar_title": {
       "es": "Los cuatro pilares",
       "en": "The four pillars",
@@ -225,7 +250,7 @@
     },
     "group3": {
       "es": "<li class=\"list-group-item active flavour_title_size\" style=\"background: #391e1a; border-color: #391e1a\"><b>Chocolates</b>\n</li>\n<li class=\"list-group-item\">Chocolate</li>\n<li class=\"list-group-item\">Chocolate amargo</li>\n<li class=\"list-group-item\">Chocolate con naranja</li>\n<li class=\"list-group-item\">Chocolate Patagon\n<small>(con dulce de leche y nueces)</small>\n</li>\n<li class=\"list-group-item\">Aconcagua\n<small>(choco blanco con coco y dulce de leche)</small>\n</li>\n<li class=\"list-group-item\">Weisser Gipfel\n<small>(choco blanco con mermelada de frambuesa)</small>\n</li>\n<li class=\"list-group-item\">Chocolate Andes chocolate con almendras)</li>\n<li class=\"list-group-item\">Chocolate Tierra del Fuego\n<small>(chocolate blanco con dulce de leche y galletitas Oreo)</small>\n</li>\n<li class=\"list-group-item\">Schokotella\n<small>(chocolate blanco con Nutella y avellanas)</small>\n</li>\n<li class=\"list-group-item\">Mokka\n<small>(chocolate con café)</small>\n</li>\n<li class=\"list-group-item\">Chocolate con mermelada de frutilla</li>",
-      "en": "<li class=\"list-group-item active flavour_title_size\" style=\"background: #391e1a; border-color: #391e1a\"><b>Chocolate flavors</b>\n</li>\n<li class=\"list-group-item\">Chocolate</li>\n<li class=\"list-group-item\">Dark chocolate</li>\n<li class=\"list-group-item\">Schokorange</li>\n<li class=\"list-group-item\">Schoko Patagon <small>chocolate with Dulce de Leche and Walnuts)</small>\n</li>\n<li class=\"list-group-item\">Aconcagua\n<small>(coconut with  white chocolate and Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Weisser Gipfel\n<small>(white chocolate with raspberry)</small>\n</li>\n<li class=\"list-group-item\">Schoko Ande (chocolate with fine almonds)</li>\n<li class=\"list-group-item\">choko Feuerland <small>(white chocolate with Oreo cookies and Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Schokotella\n<small>(white chocolate with Nutella and Hazelnut crisp)</small>\n</li>\n<li class=\"list-group-item\">Mokka\n<small>(chocolate with coffee)</small></li>\n<li class=\"list-group-item\">Chocolate with strawberry jam</li>\n",
+      "en": "<li class=\"list-group-item active flavour_title_size\" style=\"background: #391e1a; border-color: #391e1a\"><b>Chocolate flavors</b>\n</li>\n<li class=\"list-group-item\">Chocolate</li>\n<li class=\"list-group-item\">Dark chocolate</li>\n<li class=\"list-group-item\">Schokorange</li>\n<li class=\"list-group-item\">Schoko Patagon <small>chocolate with Dulce de Leche and Walnuts)</small>\n</li>\n<li class=\"list-group-item\">Aconcagua\n<small>(coconut with  white chocolate and Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Weisser Gipfel\n<small>(white chocolate with raspberry)</small>\n</li>\n<li class=\"list-group-item\">Schoko Ande (chocolate with fine almonds)</li>\n<li class=\"list-group-item\">Schoko Feuerland <small>(white chocolate with Oreo cookies and Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Schokotella\n<small>(white chocolate with Nutella and Hazelnut crisp)</small>\n</li>\n<li class=\"list-group-item\">Mokka\n<small>(chocolate with coffee)</small></li>\n<li class=\"list-group-item\">Chocolate with strawberry jam</li>\n",
       "de": "<li class=\"list-group-item active flavour_title_size\" style=\"background: #391e1a; border-color: #391e1a\"><b>Schokolade Sorten</b>\n</li>\n<li class=\"list-group-item\">Schokolade</li>\n<li class=\"list-group-item\">Bitterschokolade</li>\n<li class=\"list-group-item\">Schokorange</li>\n<li class=\"list-group-item\">Schoko Patagon <small>(Schokolade mit Dulce de Leche und Walnüssen)</small>\n</li>\n<li class=\"list-group-item\">Aconcagua\n<small>(Kokosnuss mit weisser Schokolade und  Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Weisser Gipfel\n<small>(weiße Schokolade mit Himbeermarmelade)</small>\n</li>\n<li class=\"list-group-item\">Schoko Ande <small>(Schokolade with fine almonds)</small></li>\n<li class=\"list-group-item\">Schoko Feuerland <small>(weiße Schokolade mit Oreo Keksen und Dulce de Leche)</small>\n</li>\n<li class=\"list-group-item\">Schokotella\n<small>(weiße Schokolade mit Nutella und Haselnuss Krokant)</small>\n</li>\n<li class=\"list-group-item\">Mokka\n<small>(Schokolade mit Kaffee)</small></li>\n<li class=\"list-group-item\">Schokolade mit Erdbeermarmelade</li>\n"
     },
     "group4": {
@@ -286,6 +311,23 @@
       "es": "Contactanos",
       "en": "Contact Us",
       "de": "Kontakt"
+    },
+    "contact_us_body": {
+      "es": "Nos encantaría que te contactes si tenés dudas, comentarios, críticas constructivas, deseos o si simplemente te querés sumar a nuestro equipo de trabajo. En ese caso envianos por favor tu CV informándonos tu disponibilidad horaria y el sueldo pretendido.",
+      "en": "Please contact us in case you have any questions or comments. You are also welcome to tell us your wishes or express your constructive criticism.",
+      "de": "Bitte schreibe uns, falls du Fragen oder Kommentare hast. Gerne auch wenn du Wünsche oder konstruktive Kritik äußern möchtest."
+    },
+    "contact_us_email": {
+      "es": "Podés escribirnos a <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>",
+      "en": "In case you would like to join us or be part of our team, please send us your complete CV as well as your salary and working hours expectations to following E-\nMail address: <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>",
+      "de": "Wenn du Teil unseres Teams werden möchtest, kannst du uns gerne dein Lebenslauf mit deinen Vorstellungen zu Gehalt und Arbeitszeiten an folgende\nEmailadresse schicken: <a href=\"patagon.business@gmail.com\">patagon.business@gmail.com</a>"
+    }
+  },
+  "references": {
+    "references_header": {
+      "es": "Prensa",
+      "en": "Press",
+      "de": "Presse"
     },
     "contact_us_body": {
       "es": "Nos encantaría que te contactes si tenés dudas, comentarios, críticas constructivas, deseos o si simplemente te querés sumar a nuestro equipo de trabajo. En ese caso envianos por favor tu CV informándonos tu disponibilidad horaria y el sueldo pretendido.",
