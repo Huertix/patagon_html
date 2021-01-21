@@ -56,15 +56,30 @@
         $('#' + e.id).addClass('active');
 
         let url = e.id + ".html";
-        $("#content").load(url);
-        setTimeout(function () {
-            translate();
-        }, 150);
+
+        $('#content').fadeOut('slow', function () {
+            $('#footer').hide();
+            $('#content').load(url, function () {
+                translate();
+                $('#content').fadeIn('slow');
+                $('#footer').show();
+            });
+        });
+
+
+        // $("#content").load(url);
+        // setTimeout(function () {
+        //     translate();
+        // }, 150);
 
     }
 
     $(document).ready(function () {
-        translate();
+        setTimeout(
+            function () {
+                translate();
+            }, 150);
+
 
         $(window).scroll(function () {
             $(window).scroll(function () {
