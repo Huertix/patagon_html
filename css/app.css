@@ -35,10 +35,6 @@ body {
     -o-background-size: cover;
 }
 
-.navbar {
-    font-family: 'GuthenBloots', Arial, sans-serif;
-    font-size: 1em;
-}
 
 .collapsed-menu-100 {
     margin-left: 2px !important;
