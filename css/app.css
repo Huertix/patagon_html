@@ -43,6 +43,10 @@ body {
     cursor: pointer;
 }
 
+.navbar-brand-logo {
+    width: 100px;
+}
+
 #navbar {
     height: 146px;
 }
@@ -72,16 +76,9 @@ body {
 /*}*/
 
 .navbar-brand {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
-.navbar-brand-logo-big {
-    width: 100px
-}
-
-/*.navbar-brand-logo-small {*/
-/*    width: 40px*/
-/*}*/
 
 .navbar-collapse {
     width: 100%;
@@ -232,7 +229,6 @@ body {
 }
 
 
-
 .flavours {
     margin-top: 120px;
     max-width: 1350px;
@@ -325,6 +321,10 @@ img.columns4 {
         height: 82px;
     }
 
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
     .navbar-toggler-left {
         display: block;
 
@@ -349,9 +349,10 @@ img.columns4 {
         padding: 5px;
     }
 
-    /*.navbar-brand-logo-big {*/
-    /*    width: 50px ;*/
-    /*}*/
+    .navbar-brand-logo {
+        width: 50px;
+    }
+
     .nav-item > .nav-link {
         padding-top: 4px !important;
         padding-bottom: 0px !important;
@@ -366,6 +367,11 @@ img.columns4 {
     img.columns4 {
         width: 65px;
     }
+
+    .navbar-brand-logo {
+        width: 50px;
+    }
+
 
     .columns4-text {
         padding: 12px 2px !important;

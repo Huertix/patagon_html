@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon"
+      type="image/png"
+      href="favicon-32x32.png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -14,7 +17,7 @@
 
     <title>Patagon Helados</title>
 
-    <script src="js/app.js"></script>
+<!--    <script src="js/app.js"></script>-->
 </head>
 <body>
 <div class="bg"></div>
@@ -31,24 +34,53 @@
 <script>$("#footer").load("footer.html");</script>
 
 <script>
+
+    function translate() {
+        $.getJSON("text.json", function (data) {
+            let searchParams = new URLSearchParams(window.location.search);
+            let lang = searchParams.has('lang') ? searchParams.get('lang') : 'de';
+
+            $(".translation").each(function () {
+                let key = $(this).attr('data-trans');
+                let placeholder = $(this).text();
+                if (placeholder in data[key])
+                    $(this).html(data[key][placeholder][lang])
+            });
+        });
+    }
+
+
+    function goto(e) {
+
+        $(".nav-item.active").toggleClass("active");
+        $('#' + e.id).addClass('active');
+
+        let url = e.id + ".html";
+        $("#content").load(url);
+        setTimeout(function () {
+            translate();
+        }, 150);
+
+    }
+
     $(document).ready(function () {
         translate();
 
         $(window).scroll(function () {
             $(window).scroll(function () {
 
-                if ($(window).scrollTop() < 200) {
-                    $(".navbar-brand-logo-big").css({
-                        "width": 100,
-                    });
-                }
-
-                if ($(window).scrollTop() > 200) {
-                    $(".navbar-brand-logo-big").css({
-                        "width": 48,
-                        "transition": "width 0.5s"
-                    });
-                }
+                // if ($(window).scrollTop() < 200) {
+                //     $(".navbar-brand-logo").css({
+                //         "width": 100,
+                //     });
+                // }
+                //
+                // if ($(window).scrollTop() > 200) {
+                //     $(".navbar-brand-logo").css({
+                //         "width": 48,
+                //         "transition": "width 0.5s"
+                //     });
+                // }
 
                 // $("#navbar").css("opacity", 1 - $(window).scrollTop() / $('#navbar').height());
 

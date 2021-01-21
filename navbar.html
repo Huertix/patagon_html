@@ -1,12 +1,20 @@
 <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent-off navbar-light">
 
-        <a class="navbar-brand navbar-brand-left" id="7815696ecbf1c96e6894b779456d330e" onclick="goto(this)">
-             <img class="navbar-brand-logo navbar-brand-logo-big" src="img/Logo-Patagon.png" alt="">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="container navbar-links">
-                <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-md fixed-top navbar-transparent-off navbar-light">
+
+        <div class="w-75">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="navbar-brand" id="7815696ecbf1c96e6894b779456d330e" onclick="goto(this)">
+                        <img class="navbar-brand-logo" src="img/Logo-Patagon.png" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item" id="we" onclick="goto(this)">
                         <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"
                            data-target=".navbar-collapse.show" href="#">we</a>
@@ -31,26 +39,94 @@
                         <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"
                            data-target=".navbar-collapse.show" href="#">references</a>
                     </li>
-                    <li class="nav-item"></li>
 
                 </ul>
             </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-        <a class="navbar-brand order-last  navbar-brand-right">
-             <ul class="navbar-nav">
-                  <li class="languages">
-                        <a href="7815696ecbf1c96e6894b779456d330e.html?lang=de"><img class="flag" src="img/flag/de.png"></a>
-                        <a href="7815696ecbf1c96e6894b779456d330e.html?lang=en"><img class="flag" src="img/flag/en.png"></a>
-                        <a href="7815696ecbf1c96e6894b779456d330e.html?lang=es"><img class="flag" src="img/flag/es.png"></a>
-                    </li>
-             </ul>
-        </a>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item languages">
+                    <a class="" href="?lang=de"><img class="flag"
+                                                                                         src="img/flag/de.png"></a>
+                    <a class="" href="?lang=en"><img class="flag"
+                                                                                         src="img/flag/en.png"></a>
+                    <a class="" href="?lang=es"><img class="flag"
+                                                                                         src="img/flag/es.png"></a>
+                </li>
+            </ul>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        </div>
     </nav>
+
+
+    <!--    -->
+    <!--    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent-off navbar-light">-->
+
+    <!--        <a class="navbar-brand" id="7815696ecbf1c96e6894b779456d330e" onclick="goto(this)">-->
+    <!--            <img class="navbar-brand-logo" src="img/Logo-Patagon.png" alt="">-->
+    <!--        </a>-->
+    <!--        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarSupportedContent">-->
+    <!--            <div class="container navbar-links">-->
+    <!--                <ul class="navbar-nav mr-auto">-->
+    <!--                    <li class="nav-item" id="we" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">we</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="nav-item" id="icecreams" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">icecreams</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="nav-item" id="flavours" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">flavours</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="nav-item" id="events" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">events</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="nav-item" id="contact" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">contact</a>-->
+    <!--                    </li>-->
+    <!--                    <li class="nav-item" id="references" onclick="goto(this)">-->
+    <!--                        <a class="nav-link translation" data-trans="navbar" data-toggle="collapse"-->
+    <!--                           data-target=".navbar-collapse.show" href="#">references</a>-->
+    <!--                    </li>-->
+
+    <!--                    <li class="nav-item languages">-->
+    <!--                        <a class="href="7815696ecbf1c96e6894b779456d330e.html?lang=de"><img class="flag" src="img/flag/de.png"></a>-->
+    <!--                        <a class="href="7815696ecbf1c96e6894b779456d330e.html?lang=en"><img class="flag" src="img/flag/en.png"></a>-->
+    <!--                        <a class="href="7815696ecbf1c96e6894b779456d330e.html?lang=es"><img class="flag" src="img/flag/es.png"></a>-->
+    <!--                    </li>-->
+
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">-->
+    <!--        <ul class="navbar-nav ml-auto">-->
+    <!--            <li class="nav-item">-->
+    <!--                <a class="nav-link" href="#">Right</a>-->
+    <!--            </li>-->
+    <!--            <li class="nav-item">-->
+    <!--                <a class="nav-link" href="#">Link</a>-->
+    <!--            </li>-->
+    <!--        </ul>-->
+    <!--    </div>-->
+    <!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"-->
+    <!--                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+    <!--            <span class="navbar-toggler-icon"></span>-->
+    <!--        </button>-->
+    <!--    </nav>-->
+    <!--    -->
+    <!--    -->
+    <!--    -->
+    <!--    -->
+    <!--    -->
+
+
 </div>
 <!--<div class="container-fluid logo">-->
 <!--    <div class="row">-->
