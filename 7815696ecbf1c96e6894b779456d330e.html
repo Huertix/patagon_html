@@ -28,6 +28,7 @@
 
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backDetect.js"></script>
 
 <script>$("#navbar").load("navbar.html");</script>
 <script>$("#content").load("home.html");</script>
@@ -74,11 +75,14 @@
 
     }
 
+
     $(document).ready(function () {
+
         setTimeout(
             function () {
                 translate();
-            }, 150);
+                $('body').fadeIn(1500)
+            }, 500);
 
 
         $(window).scroll(function () {
@@ -113,6 +117,13 @@
             //     // $('.fixed-top').addClass('navbar-transparent-on').removeClass('navbar-transparent-off');
             //     // $('.navbar-brand-logo').addClass('navbar-brand-logo-big').removeClass('navbar-brand-logo-small');
             // }
+        });
+    });
+
+    $(window).load(function () {
+        $('body').backDetect(function () {
+            // Callback function
+            alert("Look forward to the future, not the past!");
         });
     });
 </script>

@@ -27,6 +27,7 @@ body {
     right: 0;
     position: absolute;
     z-index: -1;
+    display: none;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
