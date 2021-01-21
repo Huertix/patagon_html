@@ -39,6 +39,10 @@ body {
     font-size: 1em;
 }
 
+.collapsed-menu-100 {
+    margin-left: 2px !important;
+}
+
 .navbar-brand {
     cursor: pointer;
 }
@@ -338,7 +342,6 @@ img.columns4 {
     }
 
     .navbar-collapse {
-        background: #4ebeed2b;
         border-radius: 5px;
         padding: 5px;
     }
