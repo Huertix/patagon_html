@@ -35,7 +35,6 @@ body {
     -o-background-size: cover;
 }
 
-
 .collapsed-menu-100 {
     margin-left: 2px !important;
 }
@@ -50,6 +49,10 @@ body {
 
 #navbar {
     height: 146px;
+}
+
+.navbar-nav {
+    font-size: 1vw;
 }
 
 .navbar-transparent-off {
