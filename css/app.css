@@ -321,6 +321,24 @@ img.columns4 {
     width: 100px
 }
 
+.card-references {
+    max-width: 700px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.condensate-font {
+    letter-spacing: 7px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1080px;
+    }
+
+}
+
 @media screen and (max-width: 900px) {
 
     #navbar {
