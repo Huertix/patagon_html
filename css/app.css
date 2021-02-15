@@ -29,6 +29,8 @@ body {
     z-index: -1;
     display: none;
 
+    overflow-x: hidden;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -339,12 +341,23 @@ img.columns4 {
     margin-bottom: 10px; /* Added */
 }
 
+@media screen and (max-width: 1199px) {
+    .text_align_left_145 {
+        min-height: 100px;
+    }
+
+}
+
 
 @media screen and (max-width: 900px) {
 
-    #navbar {
-        height: 82px;
+    .text_align_left_145 {
+        min-height: 50px;
     }
+    .navbar-default, .navbar-default .navbar-header{
+        min-height: 82px;
+    }
+
 
     .navbar-brand {
         margin-left: 10px;
@@ -388,6 +401,10 @@ img.columns4 {
 }
 
 @media screen and (max-width: 540px) {
+    .text_align_left_145 {
+        min-height: 50px;
+    }
+
     img.columns4 {
         width: 65px;
     }
